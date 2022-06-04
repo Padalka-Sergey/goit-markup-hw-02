@@ -1,0 +1,90 @@
+/* Global white: #FFFFFF;*/
+/* brand-color: #2196F3; */
+/* title: #212121;  */
+/* Text: #757575; */
+/* Main bg: #E5E5E5; */
+
+:root {
+    --brand-color: #2196F3;
+    --title: #212121;
+    --global-white: #FFFFFF;
+    --text: #757575;
+    --main-bg: #E5E5E5;
+}
+
+body {
+    color: var(--title);
+    background-color: var(--main-bg);
+}
+
+.list {
+    list-style: none;
+}
+
+/* LOGO */
+.header .logo,
+.footer .logo {
+    color: var(--brand-color);
+}
+
+.header .header-logo {
+    color: #000000;
+}
+
+/* Header */
+.nav-list .link {
+    color: var(--title);
+}
+
+.nav-list .link:hover,
+.nav-list .link:focus,
+.contacts .contacts-link:hover,
+.contacts .contacts-link:focus {
+    color: var(--brand-color);
+}
+
+.nav-list .link.current {
+    color: var(--brand-color);
+}
+
+.contacts .contacts-link {
+    color: var(--text);
+}
+
+/* Hero */
+.hero {
+    background-color: #2F303A;
+}
+
+.hero-title,
+.button {
+    color: var(--global-white);
+}
+
+.button {
+background-color: var(--brand-color) ;
+} 
+
+/* Skills */
+.skills .skills-text {
+    color: var(--text);
+}
+
+/* Team */
+.team-prof {
+    color: var(--text);
+}
+
+/* Footer */
+.footer {
+    background-color: #2F303A;
+}
+
+.footer-logo,
+.adress-city {
+    color: var(--global-white);
+}
+
+.footer .adress-item {
+    color: rgba(255, 255, 255, 0.6);;
+}
