@@ -15,16 +15,37 @@
 body {
     color: var(--title);
     background-color: var(--main-bg);
+
+    font-family: Roboto, sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    /* font-style: normal; */
+    line-height: 1.7;
+    letter-spacing: 0.03em;
 }
 
 .list {
     list-style: none;
 }
 
+.link,
+.contacts-link,
+.logo,
+.adress-city,
+.adress-item {
+    text-decoration: none;
+}
+
 /* LOGO */
 .header .logo,
 .footer .logo {
     color: var(--brand-color);
+
+    font-family: 'Raleway';
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.19;
+    
 }
 
 .header .header-logo {
@@ -34,6 +55,11 @@ body {
 /* Header */
 .nav-list .link {
     color: var(--title);
+
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
 }
 
 .nav-list .link:hover,
@@ -56,6 +82,15 @@ body {
     background-color: #2F303A;
 }
 
+.hero-title {
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 1.36;
+    letter-spacing: 0.06em;
+    text-align: center;
+    text-transform: uppercase; 
+}
+
 .hero-title,
 .button {
     color: var(--global-white);
@@ -63,6 +98,12 @@ body {
 
 .button {
 background-color: var(--brand-color) ;
+
+font-weight: 700;
+font-size: 16px;
+line-height: 1.88;
+text-align: center;
+letter-spacing: 0.06em;
 } 
 
 /* Skills */
@@ -70,9 +111,33 @@ background-color: var(--brand-color) ;
     color: var(--text);
 }
 
+.skills-title {
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.14;
+    text-transform: uppercase;
+}
+
+/* Works and team */
+.works-title,
+.team-title {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.17;
+    text-align: center;
+}
+
 /* Team */
 .team-prof {
     color: var(--text);
+    text-align: center;
+}
+
+.team-name {
+font-weight: 500;
+font-size: 16px;
+line-height: 1.19;
+text-align: center;
 }
 
 /* Footer */
@@ -87,4 +152,9 @@ background-color: var(--brand-color) ;
 
 .footer .adress-item {
     color: rgba(255, 255, 255, 0.6);;
+}
+
+.adress-item,
+.adress-city {
+    font-style: normal;
 }
