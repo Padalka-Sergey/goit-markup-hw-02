@@ -1,0 +1,41 @@
+
+
+ /* Filter */
+.button {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.63;
+
+    color: var(--title);
+    background-color: #F5F4FA;
+    border: none;
+}
+
+.button.current,
+.button:hover,
+.button:focus {
+    color: var(--text-white);
+    background-color: var(--brand-color);
+    border: none;
+}
+
+/* Projects */
+.projects-link {
+    text-decoration: none;
+}
+
+.projects-title {
+    color: var(--title);
+
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 2;
+    letter-spacing: 0.06em;
+}
+
+.projects-text {
+    color: var(--text);
+
+    font-size: 16px;
+    line-height: 1.88;
+}

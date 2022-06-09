@@ -7,9 +7,9 @@
 :root {
     --brand-color: #2196F3;
     --title: #212121;
-    --global-white: #FFFFFF;
+    --text-white: #FFFFFF;
     --text: #757575;
-    --main-bg: #E5E5E5;
+    --main-bg: #FFFFFF;
 }
 
 body {
@@ -19,7 +19,6 @@ body {
     font-family: Roboto, sans-serif;
     font-weight: 400;
     font-size: 14px;
-    /* font-style: normal; */
     line-height: 1.7;
     letter-spacing: 0.03em;
 }
@@ -45,7 +44,7 @@ body {
     font-weight: 700;
     font-size: 26px;
     line-height: 1.19;
-    
+
 }
 
 .header .header-logo {
@@ -53,9 +52,13 @@ body {
 }
 
 /* Header */
+.header {
+background-color: var(--text-white);
+}
+
 .nav-list .link {
     color: var(--title);
-
+    
     font-weight: 500;
     font-size: 14px;
     line-height: 1.14;
@@ -75,70 +78,12 @@ body {
 
 .contacts .contacts-link {
     color: var(--text);
-}
 
-/* Hero */
-.hero {
-    background-color: #2F303A;
-}
-
-.hero-title {
-    font-weight: 900;
-    font-size: 44px;
-    line-height: 1.36;
-    letter-spacing: 0.06em;
-    text-align: center;
-    text-transform: uppercase; 
-}
-
-.hero-title,
-.button {
-    color: var(--global-white);
-}
-
-.button {
-background-color: var(--brand-color) ;
-
-font-weight: 700;
-font-size: 16px;
-line-height: 1.88;
-text-align: center;
-letter-spacing: 0.06em;
-} 
-
-/* Skills */
-.skills .skills-text {
-    color: var(--text);
-}
-
-.skills-title {
-    font-weight: 700;
-    font-size: 14px;
+    font-weight: 500;
     line-height: 1.14;
-    text-transform: uppercase;
+    letter-spacing: 0.02em;
 }
 
-/* Works and team */
-.works-title,
-.team-title {
-    font-weight: 700;
-    font-size: 36px;
-    line-height: 1.17;
-    text-align: center;
-}
-
-/* Team */
-.team-prof {
-    color: var(--text);
-    text-align: center;
-}
-
-.team-name {
-font-weight: 500;
-font-size: 16px;
-line-height: 1.19;
-text-align: center;
-}
 
 /* Footer */
 .footer {
@@ -147,11 +92,12 @@ text-align: center;
 
 .footer-logo,
 .adress-city {
-    color: var(--global-white);
+    color: var(--text-white);
 }
 
 .footer .adress-item {
-    color: rgba(255, 255, 255, 0.6);;
+    color: rgba(255, 255, 255, 0.6);
+    ;
 }
 
 .adress-item,
