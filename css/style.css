@@ -10,6 +10,7 @@
     --bg-hero-footer: #2F303A;
     --button-hover: #188CE8;
     --bg-team-filters: #F5F4FA;
+    --footer-contact: rgba(255, 255, 255, 0.6);
     
 }
 
@@ -218,7 +219,7 @@ background-color: var(--text-white);
 }
 
 .footer .adress-item {
-    color: rgba(255, 255, 255, 0.6);
+    color: var(--footer-contact);
     ;
 }
 
